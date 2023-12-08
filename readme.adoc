@@ -23,7 +23,7 @@ This project uses submodules to include the RISC-V documentation toolchain.
 ```
   git clone --recurse-submodule https://github.com/NXP/riscv-zilsp
   cd ./riscv-zilsp.git
-  make VERSION=v0.8.0-draft REVMARK=Draft
+  make VERSION=v0.8.1-draft REVMARK=Draft
 ```
 
 `VERSION`: Represents the version of the specification being built. By default, this is set to 'v0.0.0'. You can change this to a different value, like 'v1.0.0', 'v1.1.0', etc., based on the current version of your specification.
